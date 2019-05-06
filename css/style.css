@@ -1,0 +1,130 @@
+#myNav {
+    background-color: rgba(255, 175, 175, 0.9);
+}
+
+#logo {
+    height: 44px;
+}
+
+#main-bg {
+    min-width: 300px;
+    width: 100%;
+}
+
+.icon-box {
+    height: 150px;
+}
+
+.icon-box div {
+    border: 3px solid black;
+}
+
+.icon-text {
+    padding: 7px 24px 0px 24px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+#mean:hover {
+    border: solid #f9654a !important;
+    background: #f9654a;
+    color: white;
+}
+
+#mean {
+    border: solid #f9654a !important;
+    color: #f9654a;
+}
+
+#android {
+    border: solid #45962d !important;
+    color: #45962d;
+}
+
+#android:hover {
+    border: solid #45962d !important;
+    background: #45962d;
+    color: white;
+}
+
+#ionic {
+    border: solid #548fff !important;
+    color: #548fff;
+}
+
+#ionic:hover {
+    border: solid #548fff !important;
+    background: #548fff;
+    color: white;
+}
+
+#react {
+    border: solid #11ffef !important;
+    color: #11ffef;
+}
+
+#react:hover {
+    border: solid #11ffef !important;
+    background: #11ffef;
+    color: white;
+}
+
+#redux {
+    border: solid #7d4aa8 !important;
+    color: #7d4aa8;
+}
+
+#redux:hover {
+    border: solid #7d4aa8 !important;
+    background: #7d4aa8;
+    color: white;
+}
+
+#spring {
+    border: solid #95ff60 !important;
+    color: #95ff60;
+}
+
+#spring:hover {
+    border: solid #95ff60 !important;
+    background: #95ff60;
+    color: white;
+}
+
+#laravel {
+    border: solid #f04d38 !important;
+    color: #f04d38;
+}
+
+#laravel:hover {
+    border: solid #f04d38 !important;
+    background: #f04d38;
+    color: white;
+}
+
+#contact-us {
+    background: black;
+    color: white;
+}
+
+#contact-us p {
+    margin: 0px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+/* .flat {
+    border-radius: 0% !important;
+}
+
+.my-btn {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.btn-text {
+    padding-bottom: 0px;
+    color: black;
+} */
