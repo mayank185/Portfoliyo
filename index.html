@@ -8,12 +8,17 @@
 
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title></title>
 </head>
 
 <body>
-    <nav class="nav justify-content-left fixed-top" id='myNav'>
+
+    <nav class="nav fixed-top" id='myNav'>
         <div class="ml-3">
             <a href="#" class="jusify-content-left">
                 <img src="images/logo.png" id='logo'>
@@ -22,27 +27,40 @@
     </nav>
 
     <section id="main">
-        <img src="images/main-bg.png" id='main-bg'>
+        <div class="main-text">
+            <h1 class="font ml3">Your Expectation</h1>
+            <h2 class="font ml3">Our Passion</h2>
+        </div>
+        <div class="main-buttons container d-flex">
+            <div class="px-2">
+                    <button class='btn-animation btn-5'><span class="btn-animation-text">About</span></button>
+            </div>
+            <div class="px-2">
+                    <button class='btn-animation btn-5'><span class="btn-animation-text">Contact</span></button>
+
+            </div>
+
+        </div>
     </section>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm icon-box justify-content-center d-flex align-items-center">
+            <div class="col-sm icon-box justify-content-center d-flex align-items-center col-md-6">
                 <div class='inner-icon' id='mean'>
                     <h3 class='icon-text'>MEAN</h3>
                 </div>
             </div>
-            <div class="col-sm icon-box justify-content-center d-flex align-items-center">
+            <div class="col-sm icon-box justify-content-center d-flex align-items-center col-md-6">
                 <div class='inner-icon' id='ionic'>
                     <h3 class='icon-text'>Ionic</h3>
                 </div>
             </div>
-            <div class="col-sm icon-box justify-content-center d-flex align-items-center">
+            <div class="col-sm icon-box justify-content-center d-flex align-items-center col-md-6">
                 <div class='inner-icon' id='react'>
                     <h3 class='icon-text'>React</h3>
                 </div>
             </div>
-            <div class="col-sm icon-box justify-content-center d-flex align-items-center">
+            <div class="col-sm icon-box justify-content-center d-flex align-items-center col-md-6">
                 <div class='inner-icon' id='redux'>
                     <h3 class='icon-text'>Redux</h3>
                 </div>
@@ -50,33 +68,35 @@
         </div>
 
         <div class="row">
-            <div class="col-sm icon-box justify-content-center d-flex align-items-center">
+            <div class="col-sm icon-box justify-content-center d-flex align-items-center col-md-6">
                 <div class='inner-icon' id='spring'>
                     <h3 class='icon-text'>Spring</h3>
                 </div>
             </div>
-            <div class="col-sm icon-box justify-content-center d-flex align-items-center">
+            <div class="col-sm icon-box justify-content-center d-flex align-items-center col-md-6">
                 <div class='inner-icon' id='react'>
                     <h3 class='icon-text'>React Native</h3>
                 </div>
             </div>
-            <div class="col-sm icon-box justify-content-center d-flex align-items-center">
+            <div class="col-sm icon-box justify-content-center d-flex align-items-center col-md-6">
                 <div class='inner-icon' id='laravel'>
                     <h3 class='icon-text'>Laravel</h3>
                 </div>
             </div>
-            <div class="col-sm icon-box justify-content-center d-flex align-items-center">
+            <div class="col-sm icon-box justify-content-center d-flex align-items-center col-md-6">
                 <div class='inner-icon' id='android'>
                     <h3 class='icon-text'>Android</h3>
                 </div>
             </div>
         </div>
     </div>
+
     <section id="contact-us">
         <div class="container">
             <p>Contact Us : 9784069947, 8619597549</p>
         </div>
     </section>
+
 </body>
 
 </html>

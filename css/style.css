@@ -1,6 +1,7 @@
 #myNav {
-    background-color: rgba(255, 175, 175, 0.9);
+    background-color: rgba(212, 154, 114, 0.29);
 }
+
 
 #logo {
     height: 44px;
@@ -9,6 +10,42 @@
 #main-bg {
     min-width: 300px;
     width: 100%;
+}
+
+#main{
+    background-image: url(../images/main-bg5.jpg);
+    height: 42em;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#main h1{
+    font-size: 4em;
+}
+
+.font{
+    font-family: StratumBold,Areal !important;
+    font-weight: 1000;
+    color: white;
+    letter-spacing: 0.05em;
+    
+}
+
+#main h2{
+    font-size:2em;
+}
+
+.main-text{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+}
+
+.main-buttons{
+    width: fit-content;
+    position: absolute;
+    top: 53%;
+    left: 49%;
 }
 
 .icon-box {
@@ -114,6 +151,107 @@
     font-weight: bold;
 }
 
+.btn-animation{
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.6em;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.11);
+}
+
+.btn-animation-text{
+    display: block;
+    padding: 0px 1em;
+  }
+  
+  .btn-animation::before,.btn-animation::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  
+  .btn-animation-text::before, .btn-animation-text::after{
+    content:"";
+    width:2px;
+    height:0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  .btn-animation:hover::before, .btn-animation:hover::after{
+    width: 100%;
+  }
+  .btn-animation:hover .btn-animation-text::before, .btn-animation:hover .btn-animation-text::after{
+    height: 100%;
+  }
+
+  .btn-5::after{
+    left:0;
+    bottom: 0;
+    transition-duration: 0.4s;
+  }
+  .btn-5 span::after{
+    right:0;
+    top: 0;
+    transition-duration: 0.4s;
+  }
+  .btn-5::before{
+    right: 0;
+    top: 0;
+    transition-duration: 0.4s;
+  }
+  .btn-5 span::before{
+    left: 0;
+    bottom: 0;
+    transition-duration: 0.4s;
+  }
+
+
+/* start of desktop styles */
+
+/*@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    
+/*    }
+    
+    @media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    
+ /*   }*/
+    
+@media screen and (max-width: 479px) {
+    #main{
+        background-image: url(../images/rsz_main-bg5.jpg);
+        height: 30em;
+        background-repeat: no-repeat;
+    }
+
+    .main-text{
+        position: absolute;
+        top: 25%;
+        left: 2%;
+    }
+
+    #main h1{
+        font-size: 3.2em;
+    }
+
+    .main-buttons {
+        width: fit-content;
+        position: absolute;
+        top: 70%;
+        left: 3%;
+    }
+    
+
+    
+}
 
 /* .flat {
     border-radius: 0% !important;
