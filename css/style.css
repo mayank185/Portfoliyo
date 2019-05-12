@@ -62,6 +62,22 @@
     font-weight: bold
 }
 
+.tech-heading {
+    color:white;
+    font-size: 2em;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 2px solid red;
+    padding: 0 0.5em;
+    font-weight: 600;
+}
+
+#technologies{
+    background-image: url(../images/tech.jpg);
+    padding: 1em 12em;
+    
+}
+
 #mean:hover {
     border: solid #f9654a !important;
     background: #f9654a;
@@ -226,16 +242,71 @@
  /*   }*/
     
 @media screen and (max-width: 479px) {
+
+    #technologies{
+        padding: 1em 1em;
+    }
+    .tech-heading{
+        display: none;
+    }
     #main{
         background-image: url(../images/rsz_main-bg5.jpg);
         height: 30em;
         background-repeat: no-repeat;
     }
-
+    .icon-box {
+        height: 100px;
+    }
     .main-text{
         position: absolute;
         top: 25%;
         left: 2%;
+    }
+
+    #main h1{
+        font-size: 2.5em;
+    }
+
+    .btn-animation{
+        display: inline-block;
+        position: relative;
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 1em;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.11);
+    }
+
+    .main-buttons {
+        width: fit-content;
+        position: absolute;
+        top: 60%;
+        left: 0%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #technologies{
+        padding: 1em 1em;
+    }
+
+    .tech-heading{
+        display: none;
+    }
+
+    #main{
+        background-image: url(../images/main-bg5.jpg);
+        height: 30em;
+        background-repeat: no-repeat;
+    }
+    .icon-box {
+        height: 100px;
+    }
+    .main-text {
+        position: absolute;
+        top: 39%;
+        left: 3%;
     }
 
     #main h1{
@@ -245,13 +316,42 @@
     .main-buttons {
         width: fit-content;
         position: absolute;
-        top: 70%;
-        left: 3%;
+        top: 68%;
+        left: -1%;
     }
-    
-
-    
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #main{
+        background-image: url(../images/main-bg5.jpg);
+        height: 30em;
+        background-repeat: no-repeat;
+    }
+    .icon-box {
+        height: 100px;
+    }
+    .main-text{
+        position: absolute;
+        top: 21%;
+        left: 55%;
+    }
+
+    #main h1{
+        font-size: 3.2em;
+    }
+
+    .main-buttons {
+        width: fit-content;
+        position: absolute;
+        top: 65%;
+        left: 53%;
+    }
+    #technologies{
+        padding: 2em 2em;
+    }
+}
+
+
 
 /* .flat {
     border-radius: 0% !important;
